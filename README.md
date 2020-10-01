@@ -42,7 +42,7 @@ Check http://localhost:3000/en/ to start browsing!
 ## Locales
 
 We use JSON key-value files to store all the locales, and Transifex to translate the website.
-These files are located inside the `src/locales` folder. To prevent conflicts, please avoid updating this
+These files are located inside the `src/locales` folder and you can see later. To prevent conflicts, please avoid updating this
 files directly, but prefer to edit them on Transifex.
 
 * To translate the Website, go to [Transifex](https://www.transifex.com/cozy/cozy-site/);
@@ -62,7 +62,7 @@ node app.js
 
 ## Extra information
 
-* The build engine of the website is based on [Metalsmith](http://metalsmith.io/) (a static website generator). 
+* The build engine of the website is based on [Metalsmith](http://metalsmith.io/) (a static website generator and publisher). 
 * The templates are written with [Handlebars](http://handlebarsjs.com/). 
 * Stylesheets are written with [Stylus](http://stylus-lang.com/)
 
